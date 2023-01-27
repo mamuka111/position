@@ -1,0 +1,17 @@
+.parent{
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    margin: 100px 50px;
+    position: relative;
+     /* overflow: auto როცა ზევიდან ჩამოვწევ შვილ ელემენტს რომ არ გამოყვეს მშობელიც */
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-left: 20px;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
